@@ -11,6 +11,7 @@ export default function ActorPicker({ current, everyone }: { current: string; ev
     <label className="actor">
       <span className="small">Working as</span>
       <select
+        aria-label="Working as"
         value={current}
         disabled={pending}
         onChange={(e) => start(() => setActorAction(e.target.value))}
