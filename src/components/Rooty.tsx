@@ -1,0 +1,17 @@
+export default function Rooty({ size = 96 }: { size?: number }) {
+  return (
+    <svg className="rooty" viewBox="0 0 120 150" width={size} height={(size * 150) / 120} role="img" aria-label="Rooty, the Freshroots mascot">
+      <path d="M60 38C46 20 30 18 22 8c14-2 30 4 38 20 8-16 24-22 38-20-8 10-24 12-38 30z" fill="#256B47" />
+      <path d="M60 40C56 24 56 12 60 2c4 10 4 22 0 38z" fill="#173D2D" />
+      <path d="M60 138C30 138 14 112 14 84c0-28 20-46 46-46s46 18 46 46c0 28-16 54-46 54z" fill="#FBEBC6" stroke="#173D2D" strokeWidth="4" strokeLinejoin="round" />
+      <path d="M60 138c-6 6-6 10-2 12" fill="none" stroke="#173D2D" strokeWidth="4" strokeLinecap="round" />
+      <circle cx="44" cy="82" r="5" fill="#1F2A24" />
+      <circle cx="76" cy="82" r="5" fill="#1F2A24" />
+      <circle cx="45.6" cy="80.4" r="1.6" fill="#FFFDF7" />
+      <circle cx="77.6" cy="80.4" r="1.6" fill="#FFFDF7" />
+      <ellipse cx="34" cy="96" rx="7" ry="4.5" fill="#E8A628" opacity=".55" />
+      <ellipse cx="86" cy="96" rx="7" ry="4.5" fill="#E8A628" opacity=".55" />
+      <path d="M50 98c4 7 16 7 20 0" fill="none" stroke="#1F2A24" strokeWidth="3.5" strokeLinecap="round" />
+    </svg>
+  );
+}
