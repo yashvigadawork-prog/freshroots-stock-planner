@@ -38,3 +38,7 @@ To try the whole Zoho flow without an account, run `npm run fake-zoho` and follo
 
 - `docs/how-raghav-uses-this.md` the one-page weekly routine
 - `docs/final-checklist.md` what is done and what is still to do
+
+## Deploying
+
+The app is hosted on Vercel with a Neon database. The Vercel project is connected to this repository, so every push to `main` is built and deployed automatically.
